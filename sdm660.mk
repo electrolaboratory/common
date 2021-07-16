@@ -11,6 +11,9 @@
 # Proprietary vendor blobs
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
 
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Non-A/B partition scheme
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
