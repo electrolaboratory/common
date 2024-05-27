@@ -161,6 +161,8 @@ PRODUCT_PACKAGES += \
     libutilscallstack.vendor \
     libxml2
 
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.asus_sdm660)
+
 
 # ============================================================
 # Cgroup и task profiles
