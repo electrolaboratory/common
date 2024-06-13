@@ -77,6 +77,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     android.hardware.camera.provider@2.6 \
+    libcamera_metadata.vendor \
+    libpng.vendor \
     vendor.qti.hardware.camera.device@1.0
 
 PRODUCT_PACKAGES += \
@@ -94,6 +96,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
+
+# cURL
+PRODUCT_PACKAGES += \
+    libcurl.vendor
 
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
@@ -133,6 +139,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     libcrypto-v33
 
+# Expat
+PRODUCT_PACKAGES += \
+    libexpat.vendor
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
@@ -151,7 +161,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libgatekeeper.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -243,7 +254,8 @@ PRODUCT_COPY_FILES += \
 
 # Network
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # NFC
 PRODUCT_COPY_FILES += \
@@ -449,6 +461,10 @@ BOARD_SHIPPING_API_LEVEL := 30
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.basic
+
+# Utils
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 # Vibrator
 PRODUCT_PACKAGES += \
