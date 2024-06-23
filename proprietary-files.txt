@@ -788,12 +788,12 @@ vendor/etc/init/ims_rtp_daemon_legacy.rc|104b2a879db4d3dd44e74a3d7f6e69f6972c912
 system_ext/lib64/lib-imscamera.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
-system_ext/lib64/libimsmedia_jni.so
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 
 # IMS (VT) - from Redmi/sweet_global/sweet:12/SKQ1.210908.001/V13.0.3.0.SKFMIXM:user/release-keys
 system_ext/lib64/lib-imsvideocodec.so|b7001bb1008106ccb9ef92dd2560e2052b40c325
 system_ext/lib64/lib-imsvtutils.so|875748249b9269e964f467311c72e123878c0de9
-system_ext/lib64/libimscamera_jni.so|ff3d65093f5bf19fba95798b0a121ee510b0f72e
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|ff3d65093f5bf19fba95798b0a121ee510b0f72e
 
 # Latency - from S62Pro RKQ1.210406.002
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
