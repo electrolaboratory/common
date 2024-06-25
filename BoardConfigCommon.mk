@@ -160,6 +160,9 @@ PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 # Treble
 BOARD_VNDK_VERSION := current
 
+# Updater
+AB_OTA_UPDATER := false
+
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-12-05
 
