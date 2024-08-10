@@ -39,7 +39,7 @@
         <library name="offload_bundle" path="libqcompostprocbundle.so"/>
         <library name="audio_pre_processing" path="libqcomvoiceprocessing.so"/>
         <library name="volume_listener" path="libvolumelistener.so"/>
-        <library name="dap" path="libhwdap.so"/>
+        <library name="dap" path="libswdap.so"/>
         <library name="gamedap" path="libswgamedap.so"/>
         <library name="vqe" path="libswvqe.so"/>
     </libraries>
