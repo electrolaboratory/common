@@ -157,9 +157,6 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Updater
 AB_OTA_UPDATER := false
 
