@@ -99,10 +99,6 @@ persist.vendor.camera.HAL3.enabled=1
 persist.vendor.camera.perflock.enable=0
 persist.vendor.camera.dual.isp.sync=0
 
-# Codec2 switch
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-
 # Dalvik overrides
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heapstartsize=8m
