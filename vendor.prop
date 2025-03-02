@@ -159,6 +159,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
 # Perf
+ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
 
 # Radio
