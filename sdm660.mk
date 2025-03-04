@@ -253,10 +253,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
-# Kernel
-TARGET_KERNEL_BUILD_HOST := beastmachine
-TARGET_KERNEL_BUILD_USER := "SonicBSV"
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor
@@ -574,7 +570,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     android.hardware.wifi@1.6.vendor \
     hostapd \
-    hostapd_cli \
     libwifi-hal-qcom \
     wificond \
     libwpa_client \
