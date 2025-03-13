@@ -76,10 +76,6 @@ function blob_fixup() {
         *)
             return 1
             ;;
-        vendor/lib*/libwvhidl.so)
-            [ "$2" = "" ] && return 0
-            grep -q libcrypto_shim.so "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
-            ;;
     esac
 
     return 0
