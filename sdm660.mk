@@ -139,8 +139,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey \
-    libcrypto_shim.vendor \
-    libcrypto-v33
+    libcrypto-v33 \
+    libcrypto_shim
 
 # Expat
 PRODUCT_PACKAGES += \
