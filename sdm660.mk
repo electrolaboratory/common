@@ -442,6 +442,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.asus_sdm660
 
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 202404
+BOARD_SHIPPING_API_LEVEL := 30
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.basic
