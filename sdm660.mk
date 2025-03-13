@@ -476,7 +476,7 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.asus_sdm660
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 202404
+PRODUCT_SHIPPING_API_LEVEL := 27
 BOARD_SHIPPING_API_LEVEL := 30
 
 # USB
