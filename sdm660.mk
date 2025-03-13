@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # GRF/VF
+PRODUCT_SHIPPING_API_LEVEL := 27
 BOARD_SHIPPING_API_LEVEL := 30
 
 # OMX
