@@ -25,10 +25,5 @@ ro.lmk.upgrade_pressure=100
 ro.lmk.downgrade_pressure=100
 ro.lmk.log_stats=true
 
-# enable debugging
-persist.sys.usb.config=mtp,adb
-ro.adb.secure=0
-ro.debuggable=1
-
 # IMS
 ro.telephony.block_binder_thread_on_incoming_calls=false
