@@ -409,7 +409,12 @@ PRODUCT_PACKAGES += \
     libhypv_intercept \
     libmedia_omx.vendor \
     libmm-omxcore \
+    libOmxAacEnc \
+    libOmxAmrEnc \
     libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
