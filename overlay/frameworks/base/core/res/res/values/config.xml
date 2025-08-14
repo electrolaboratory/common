@@ -388,6 +388,10 @@
     <!-- Свободное размещение окон (Freeform) -->
     <bool name="config_freeformWindowManagement">true</bool>
 
+    <!-- Whether WM DisplayContent supports high performance transitions
+         (lower-end devices may want to disable) -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+
     <!-- Pinner Service: файлы, закреплённые в RAM для быстрого старта -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>/system/framework/framework.jar</item>
