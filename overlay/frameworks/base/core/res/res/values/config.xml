@@ -392,6 +392,10 @@
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 
+    <!-- Media controls -->
+    <bool name="config_mediaControlsRippleByDefault">false</bool>
+    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+
     <!-- Pinner Service: файлы, закреплённые в RAM для быстрого старта -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>/system/framework/framework.jar</item>
