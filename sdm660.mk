@@ -124,6 +124,11 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
 
+# Dolby
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
+TARGET_EXCLUDES_AUDIOFX := true
 
 # ============================================================
 # ANT+
@@ -235,14 +240,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.use_color_management=false \
     ro.surface_flinger.protected_contents=true
 
-
 # ============================================================
 # Doze (режим сна экрана)
 # ============================================================
 
 PRODUCT_PACKAGES += \
     DeviceDoze
-
 
 # ============================================================
 # DRM
