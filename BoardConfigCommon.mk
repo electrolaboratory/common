@@ -181,8 +181,10 @@ DEVICE_MANIFEST_FILE += \
     $(VENDOR_PATH)/manifest_android.hardware.drm@1.3-service.widevine.xml \
     $(VENDOR_PATH)/vendor.qti.gnss@4.0-service.xml
 
-DEVICE_MATRIX_FILE                        := $(VENDOR_PATH)/compatibility_matrix.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(VENDOR_PATH)/framework_compatibility_matrix.xml
+DEVICE_MATRIX_FILE := $(VENDOR_PATH)/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+        $(VENDOR_PATH)/framework_compatibility_matrix.xml \
+        $(VENDOR_PATH)/dolby_compat_framework_matrix.xml
 
 # ODM манифест для SKU с NFC
 #ODM_MANIFEST_SKUS      += NFC
