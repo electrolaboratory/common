@@ -167,8 +167,8 @@ PRODUCT_PACKAGES += \
 # ============================================================
 
 PRODUCT_COPY_FILES += \
-    system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
-    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+    system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
 
 # ============================================================
@@ -216,12 +216,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
     ro.opengles.version=196610 \
-    debug.egl.hw=1 \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1 \
-    debug.hwui.renderer=skiagl \
-    debug.renderengine.backend=skiaglthreaded \
     vendor.display.enable_default_color_mode=1 \
     vendor.display.disable_skip_validate=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
@@ -573,15 +569,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client
-
-# Выбор powerhint в зависимости от устройства (SDM636 vs SDM660)
-ifneq ($(filter X00TD, $(TARGET_DEVICE)),)
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint-sdm636.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-else
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint-sdm660.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-endif
 
 
 # ============================================================

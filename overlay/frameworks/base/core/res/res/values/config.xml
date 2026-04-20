@@ -394,6 +394,8 @@
         <item>/system/framework/services.jar</item>
         <item>/apex/com.android.art/javalib/core-oj.jar</item>
         <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/system/bin/surfaceflinger</item>
+        <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
     </string-array>
 
     <!-- Отключённые компоненты Google (снижение фонового потребления) -->
@@ -404,5 +406,9 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
+
+    <!-- Whether WM DisplayContent supports high performance transitions
+         (lower-end devices may want to disable) -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 
 </resources>
