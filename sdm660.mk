@@ -574,15 +574,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client
 
-# Выбор powerhint в зависимости от устройства (SDM636 vs SDM660)
-ifneq ($(filter X00TD, $(TARGET_DEVICE)),)
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint-sdm636.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-else
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint-sdm660.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-endif
-
 
 # ============================================================
 # Public Libraries
