@@ -22,6 +22,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/asus/sdm660-common',
+    'hardware/qcom-caf/common/libqti-perfd-client',
     'hardware/qcom-caf/sdm660',
     'hardware/qcom-caf/wlan',
     'vendor/qcom/opensource/commonsys/display',
