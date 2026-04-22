@@ -156,7 +156,6 @@ persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sib16_support=1
 persist.vendor.radio.enableadvancedscan=false
 persist.vendor.radio.is_wcdma_lteable=1
-persist.vendor.radio.add_power_save=1
 vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
 # ═══════════════════════════════════════════════════════════════
