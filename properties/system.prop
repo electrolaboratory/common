@@ -21,11 +21,22 @@ persist.audio.jack.event=1
 persist.bluetooth.a2dp_aac.vbr_supported=true
 ro.bluetooth.request.master=true
 ro.bluetooth.remote.autopair=true
+vendor.bluetooth.soc=cherokee
 
 # ═══════════════════════════════════════════════════════════════
 # Charger
 # ═══════════════════════════════════════════════════════════════
 ro.charger.enable_suspend=true
+
+# ═══════════════════════════════════════════════════════════════
+# Display HAL & Graphics Hardware
+# ═══════════════════════════════════════════════════════════════
+sdm.debug.disable_skip_validate=1
+
+# ═══════════════════════════════════════════════════════════════
+# FM Radio
+# ═══════════════════════════════════════════════════════════════
+vendor.hw.fm.init=0
 
 # ═══════════════════════════════════════════════════════════════
 # Graphics & Rendering (SurfaceFlinger / HWUI)
@@ -74,6 +85,11 @@ ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
 # ═══════════════════════════════════════════════════════════════
+# GPS HAL
+# ═══════════════════════════════════════════════════════════════
+persist.vendor.overlay.izat.optin=rro
+
+# ═══════════════════════════════════════════════════════════════
 # IMS / Telephony
 # ═══════════════════════════════════════════════════════════════
 persist.dbg.volte_avail_ovr=1
@@ -81,6 +97,7 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.dbg.ims_volte_enable=1
 DEVICE_PROVISIONED=1
+persist.data.df.dev_name=rmnet_usb0
 persist.radio.multisim.config=dsds
 persist.radio.VT_CAM_INTERFACE=2
 persist.sys.fflag.override.settings_network_and_internet_v2=true
@@ -94,7 +111,9 @@ ro.com.android.dataroaming=false
 # ═══════════════════════════════════════════════════════════════
 # Media (System level)
 # ═══════════════════════════════════════════════════════════════
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
+vidc.enc.target_support_bframe=1
 
 # ═══════════════════════════════════════════════════════════════
 # Netflix
