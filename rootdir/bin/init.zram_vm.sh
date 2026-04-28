@@ -51,7 +51,7 @@ echo "$SWAPPINESS" > /proc/sys/vm/swappiness
 echo 0 > /proc/sys/vm/page-cluster
 echo "$VFS_PRESSURE" > /proc/sys/vm/vfs_cache_pressure
 echo 0 > /proc/sys/vm/watermark_boost_factor
-echo 50 > /proc/sys/vm/watermark_scale_factor
+echo 20 > /proc/sys/vm/watermark_scale_factor
 echo "$EXTRA_FREE" > /proc/sys/vm/extra_free_kbytes
 
 # ═══════════════════════════════════════════════════════════════
