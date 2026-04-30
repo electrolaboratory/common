@@ -29,24 +29,6 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
-# ═══════════════════════════════════════════════════════════════
-# Enable PSI monitoring for LMKD
-# ═══════════════════════════════════════════════════════════════
-ro.lmk.use_psi=true
-ro.lmk.crit_complete_stall_ms=700
-ro.lmk.low_complete_stall_ms=100
-ro.lmk.psi_partial_stall_ms=70
-ro.lmk.psi_complete_stall_ms=700
-
-# ═══════════════════════════════════════════════════════════════
-# Memory management optimization
-# ═══════════════════════════════════════════════════════════════
-ro.config.low_ram=false
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=100
-ro.lmk.promote_foreground_apps=true
-persist.sys.force_highendgfx=true
-
 # Telephony
 # Disable handling audio direction changes on IMS calls.
 ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
