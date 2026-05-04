@@ -53,10 +53,10 @@
 
 
     <!-- ╔══════════════════════════════════════════════════════════╗
-         ║  DOZE / AMBIENT DISPLAY (LCD оптимизация)                ║
+         ║  DOZE / AMBIENT DISPLAY                                  ║
          ╚══════════════════════════════════════════════════════════╝ -->
 
-    <!-- LCD не поддерживает настоящий AOD, включаем только пульсацию -->
+    <!-- Разрешаем поддержку состояний дисплея в режиме Doze -->
     <bool name="doze_display_state_supported">true</bool>
     <bool name="doze_suspend_display_state_supported">true</bool>
 
