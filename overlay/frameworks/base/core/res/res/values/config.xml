@@ -130,7 +130,7 @@
     <item name="config_screenBrightnessDimFloat"
           format="float" type="dimen">0.004</item>
     <item name="config_screenBrightnessDozeFloat"
-          format="float" type="dimen">0.0</item>
+          format="float" type="dimen">0.004</item>
 
     <!-- Ночной режим -->
     <bool name="config_nightDisplayAvailable">true</bool>
