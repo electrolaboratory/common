@@ -45,9 +45,6 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 TARGET_KERNEL_VERSION ?= 4.19
 
-# APEX — не сжимаем (совместимость с older recovery)
-PRODUCT_COMPRESSED_APEX := false
-
 # UFFD GC включён для ядра 4.19+
 PRODUCT_ENABLE_UFFD_GC := true
 
