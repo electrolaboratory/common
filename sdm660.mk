@@ -391,7 +391,7 @@ PRODUCT_PACKAGES += \
 # ============================================================
 
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.asus_sdm660
+    android.hardware.light-service.lineage
 
 
 # ============================================================
