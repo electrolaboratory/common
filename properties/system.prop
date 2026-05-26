@@ -32,6 +32,7 @@ ro.charger.enable_suspend=true
 # Display HAL & Graphics Hardware
 # ═══════════════════════════════════════════════════════════════
 sdm.debug.disable_skip_validate=1
+vendor.display.enable_default_color_mode=1
 
 # ═══════════════════════════════════════════════════════════════
 # Filesystem
