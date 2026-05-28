@@ -16,6 +16,17 @@ vendor/lib64/soundfx/libshoebox.so|c88c36d90d3a54dea8e3ef08114598942810ac28
 vendor/lib/soundfx/libspatialaudio.so|c84a1098a775401344d97d3c7638498d9207ccad
 vendor/lib64/soundfx/libspatialaudio.so|6032bab9daed70af13ab9ebcc21a40d703d05bbe
 
+# FM - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
+system_ext/lib/fm_helium.so|89b1d540475352172eac7265c97aba55d93c150e
+system_ext/lib/libfm-hci.so|b42ec9573f38587857ef01e7bdd88dd9bb6ae584
+system_ext/lib/vendor.qti.hardware.fm@1.0.so|af23f9986a1836a2f937320946a1267563a82e22
+system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|5eaf6d5d67361ff6236c1ec4f5225c6185a904a6
+vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|aad3ef11a2fa41bb5a2bf25f8960c53ac3e0f8a4
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|05931b5d088bd7000b0b002ee650b0953e272cd7
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|f6e23f902b7e15232b20af55161a24da93ffe25f
+
 # System Framework
 system/framework/tcmclient.jar
 
@@ -186,7 +197,6 @@ system_ext/lib64/vendor.qti.hardware.data.iwlan@1.1.so
 system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so
@@ -488,7 +498,6 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/hw/vulkan.adreno.so
 
@@ -699,7 +708,6 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
